@@ -1,10 +1,10 @@
-import random
+import osimport random
 from datetime import datetime
 import pandas
 import smtplib
 
-MY_EMAIL = "juniorkassehinjk@gmail.com"
-MY_PASSWORD = "ubvojsunuurcbbzk"
+MY_EMAIL = os.environ.get("MY_EMAIL")
+MY_PASSWORD = os.environ.get("MY_PASSWORD")
 
 
 today = datetime.now()
