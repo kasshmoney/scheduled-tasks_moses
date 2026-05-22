@@ -1,4 +1,5 @@
-import osimport random
+import os
+import random
 from datetime import datetime
 import pandas
 import smtplib
